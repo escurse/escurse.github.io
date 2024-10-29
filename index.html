@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>박재형의 메모장</title>
     <link rel="stylesheet" href="assets/styles/index.css">
+    <script defer src="assets/scripts/index.js"></script>
 </head>
 <body>
 <h1>Hello World</h1>
@@ -14,5 +15,23 @@
 <h1 class="red">안녕</h1>
 <h2 class="blue">클레오 파트라</h2>
 <h3 class="green">세상에서 제일 가는 포테이토칩</h3>
+<form id="form">
+    <label>
+        <input name="valA">
+    </label>
+    <label>
+        <select name="op">
+            <option value="add">+</option>
+            <option value="sub">-</option>
+            <option value="mul">*</option>
+            <option value="div">/</option>
+            <option value="mod">%</option>
+        </select>
+    </label>
+    <label>
+        <input name="valB">
+    </label>
+    <button type="submit">계산하기</button>
+</form>
 </body>
 </html>
