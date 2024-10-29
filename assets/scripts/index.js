@@ -17,4 +17,6 @@ $form.onsubmit = (e) => {
         $div.innerText = parseInt($valA) % parseInt($valB);
     }
     $form.append($div);
+    $form['valA'].value = "";
+    $form['valB'].value = "";
 }
