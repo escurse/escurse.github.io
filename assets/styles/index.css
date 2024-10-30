@@ -10,3 +10,8 @@
     gap: 0.5rem;
     justify-content: center;
 }
+
+#form > .input {
+    height: 10rem;
+    width: 10rem;
+}
