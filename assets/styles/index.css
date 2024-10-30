@@ -1,17 +1,32 @@
 @charset "UTF-8";
 
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
 #form {
     top: 50%;
-    lefT: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     position: absolute;
-    align-items: center;
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     justify-content: center;
 }
 
-#form > .input {
-    height: 10rem;
-    width: 10rem;
+#form > label > .input {
+    height: 2rem;
+    width: 20rem;
+    border-radius: 0.25rem;
+    border: 0.1rem solid
+}
+
+#form > .button {
+    background-color: #3ca3ff;
+    border: none;
+    border-radius: 0.25rem;
 }
