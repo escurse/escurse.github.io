@@ -25,7 +25,22 @@ body {
     border: 0.1rem solid
 }
 
+#form > label > select {
+    height: 2rem;
+    width: 3rem;
+    border: 0.1rem solid;
+    border-radius: 0.25rem;
+
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 #form > .button {
+    height: 2rem;
+    width: 5rem;
+    color: #ffffff;
     background-color: #3ca3ff;
     border: none;
     border-radius: 0.25rem;
